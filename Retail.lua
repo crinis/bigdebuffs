@@ -104,6 +104,7 @@ addon.Spells = {
     [207256] = { type = BUFF_OFFENSIVE }, -- Obliteration
     [207289] = { type = BUFF_OFFENSIVE }, -- Unholy Frenzy
     [207319] = { type = BUFF_DEFENSIVE }, -- Corpse Shield
+    [287081] = { type = BUFF_DEFENSIVE }, -- Lichborne
     [212332] = { type = CROWD_CONTROL }, -- Smash
         [212337] = { type = CROWD_CONTROL, parent = 212332 }, -- Powerful Smash
     [212552] = { type = BUFF_DEFENSIVE }, -- Wraith Walk
