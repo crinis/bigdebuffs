@@ -110,6 +110,8 @@ addon.Spells = {
     [212552] = { type = BUFF_DEFENSIVE }, -- Wraith Walk
     [219809] = { type = BUFF_DEFENSIVE }, -- Tombstone
     [223929] = { type = BUFF_OTHER }, -- Necrotic Wound
+    [315443] = { type = BUFF_OFFENSIVE }, -- Abomination Limb
+
 
     -- Demon Hunter
 
@@ -139,6 +141,7 @@ addon.Spells = {
     [740] = { type = BUFF_DEFENSIVE }, -- Tranquility
     [1850] = { type = BUFF_OTHER }, -- Dash
         [252216] = { type = BUFF_OTHER, parent = 1850 }, -- Tiger Dash
+    [323764] = { type = BUFF_OTHER }, -- Convoke the Spirits
     [2637] = { type = CROWD_CONTROL }, -- Hibernate
     [5211] = { type = CROWD_CONTROL }, -- Mighty Bash
     [5217] = { type = BUFF_OFFENSIVE }, -- Tiger's Fury
@@ -162,6 +165,7 @@ addon.Spells = {
     [170855] = { type = ROOT }, -- Entangling Roots
     [194223] = { type = BUFF_OFFENSIVE }, -- Celestial Alignment
     [200851] = { type = BUFF_DEFENSIVE }, -- Rage of the Sleeper
+    [202425] = { type = BUFF_OFFENSIVE }, -- Warrior of Elune
     [202425] = { type = BUFF_OFFENSIVE }, -- Warrior of Elune
     [204399] = { type = CROWD_CONTROL }, -- Earthfury
     [204437] = { type = CROWD_CONTROL }, -- Lightning Lasso
@@ -270,6 +274,8 @@ addon.Spells = {
     [232055] = { type = CROWD_CONTROL }, -- Fists of Fury
         [120086] = { type = CROWD_CONTROL, parent = 232055 }, -- Fists of Fury
     [233759] = { type = CROWD_CONTROL }, -- Grapple Weapon
+    [310454] = { type = BUFF_OTHER }, -- Weapons of Order
+    [325216] = { type = BUFF_OTHER }, -- Bonedust Brew
 
     -- Paladin
 
